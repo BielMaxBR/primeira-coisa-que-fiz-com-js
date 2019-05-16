@@ -28,7 +28,6 @@ function draw() {
 	ellipse(x, y, 30, 30);
 	
 	text("'-'", windowWidth/2-3, (windowHeight/2)+50, 200, 200)
-	console.log(x,y);
 	
     if (mouseX > x) {
 	moveRight();
