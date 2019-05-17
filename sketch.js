@@ -1,6 +1,11 @@
+var song;
+
+function preload() {
+	song = loadSound("Rude_Ruster.mp3");
+}
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	
+	// song.play();
 }
 // frameRate();
 var x = 1280/2;
@@ -26,7 +31,7 @@ function draw() {
 	background(20,20,20);
 	fill( r, g, b );
 	ellipse(x, y, 30, 30);
-	
+
 	text("'-'", windowWidth/2-3, (windowHeight/2)+50, 200, 200)
 	
     if (mouseX > x) {
@@ -36,6 +41,8 @@ function draw() {
   	else if (mouseX < x) {
 	  moveLeft();
 	  noStroke();
+	} else {
+		return;
 	}
   	if (mouseY < y) {
 	  moveUp();
@@ -44,7 +51,9 @@ function draw() {
   	else if (mouseY > y) {
 	  moveDown();
 	  noStroke();
-  	}	
+  	}	else {
+			return;
+		}
 
 
 }
