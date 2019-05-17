@@ -1,12 +1,16 @@
 var song;
 
 function preload() {
-	song = loadSound("Rude_Ruster.mp3");
+	//song = loadSound("Rude_Buster.mp3");
 }
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	// song.play();
+	// song = loadSound("Rude_Buster.mp3", loaded);
 }
+
+//function loaded() {
+//	song.play();
+//}
 // frameRate();
 var x = 1280/2;
 var y = 720/2;
@@ -14,6 +18,7 @@ var y = 720/2;
 var r = 255;
 var g = 255;
 var b = 255;
+
 function moveRight() {
 	x += 7.5;
 	
