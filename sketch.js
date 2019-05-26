@@ -33,11 +33,18 @@ function moveDown() {
 	y += 7.5 ;
 }
 function draw() {
-	background(20,20,20);
+	r = random(10,255);
+	g = random(10,255);
+	b = random(10,255);	
+	background(b,r,g);
 	fill( r, g, b );
 	ellipse(x, y, 30, 30);
 
-	text("'-'", windowWidth/2-3, (windowHeight/2)+50, 200, 200)
+	text("( '-' )", windowWidth/2-3, (windowHeight/2)+50, 200, 200)
+	text(r, 0+5, 0+5, 200, 200)
+	text(g, 0+15, 0+15, 200, 200)
+	text(b, 0+25, 0+25, 200, 200)
+
 	
     if (mouseX > x) {
 	moveRight();
@@ -65,5 +72,9 @@ function draw() {
 function mousePressed() {
 	r = random(0,255);
 	g = random(0,255);
-	b = random(0,255);	
+	b = random(0,255);
+	fill( r, g, b );
+	x = mouseX;
+	y = mouseY;
+
 };
