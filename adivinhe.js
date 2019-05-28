@@ -1,5 +1,7 @@
-var numerexto = Number.parseInt(window.prompt('fala um numero ae'))
 //autoplay("Rude_Buster.pm3");
 function tocar() {
-    window.alert("hehe")
+    var resp = window.prompt("hehe")
+    if (resp.toLowerCase() == "sans") {
+        window.alert("* Rápido! \n  se esconde lá atrás daquele abajur \n  muito conveniente!")
+    }
 }
