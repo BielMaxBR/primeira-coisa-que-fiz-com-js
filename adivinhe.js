@@ -1,4 +1,5 @@
-/* var numerexto = Number.parseInt(window.prompt('fala um numero ae'))
-if (typeof(numerexto) === "number") {    
-    window.alert(numerexto*2)
-} */
+var numerexto = Number.parseInt(window.prompt('fala um numero ae'))
+//autoplay("Rude_Buster.pm3");
+function tocar() {
+    window.alert("hehe")
+}
