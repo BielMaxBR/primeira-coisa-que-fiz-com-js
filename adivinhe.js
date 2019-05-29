@@ -7,3 +7,11 @@ function tocar() {
 
     }
 }
+function ligou() {
+    window.document.body.style.backgroundColor = 'yellow'
+    window.document.body.style.color = 'black'
+    alert('* Ops! \n  você acabou ligando o abajur!')
+}
+function escola() {
+    
+}
