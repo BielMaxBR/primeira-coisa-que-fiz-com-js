@@ -12,7 +12,10 @@ function ligou() {
     window.document.getElementById('tescola').style.color = 'white'
     alert('* Ops! \n  você acabou ligando o abajur!')
 }
-function escola() {
+function tescola() {
     document.getElementById('escola').style.visibility = 'visible'
     alert('WOW! você achou a escola de bruxos!')
+}
+function escola() {
+    window.location.assign('escola.html')
 }
