@@ -4,7 +4,7 @@ function preload() {
 	//song = loadSound("Rude_Buster.mp3");
 }
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, windowHeight-10);
 	// song = loadSound("Rude_Buster.mp3", loaded);
 }
 
