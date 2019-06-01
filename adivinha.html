@@ -8,44 +8,17 @@
 	<!-- <embed src="Rude_Buster.mp3" autostart="true" loop="true" width=0 height=0> -->
 	<audio src="Rude_Buster.mp3" autoplay loop hidden></audio>
 	<title>HAHAHAHHHHAHAAHAH</title>
-	<style>
-		body {
-			color : white;
-			background-color:black;
-			text-align: center;
-			font-family: "Comic Sans MS", cursive, sans-serif;
-		}
-		h1 {  
-			text-align: center;
-			font-family: "Comic Sans MS", cursive, sans-serif;
-		}
-		#sans {
- 	 		margin-left:1000px;
-	  		width: 10%;
-		}
-		#abajur {
-			visibility: hidden;
-			margin-left: -1000px;
-			width: 6%;
-		}
-		h2 {
-			color: whitesmoke;
-		}
-		#escola {
-			visibility: hidden;
-			align-content: center;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>vamo la</h1> <br>
+	<header id="cabeca"><h1>vamo la</h1></header>
 	<input type="image" id="sans" src="sans.jpg" width="100" alt="hehe" onclick="tocar()"> <br>
-	<h3>há um belo dia lá fora... <br>
+	<div id="textao"><h3>há um belo dia lá fora... <br>
 	pássaros cantando... <br> 
 	flores desabrochando... <br> 
 	em dias como este... <br> 
 	pivetes como você... <br> 
-	deveriam ir pra </h3> <h2 id="tescola" onclick="tescola()">ESCOLA</h2>
+	deveriam ir pra </h3></div> <h2 id="tescola" onclick="tescola()">ESCOLA</h2>
 	<img id="abajur" src="abajur.png" alt="Abajur" onclick="ligou()">
 	<img id="escola" src="escola.png" alt="Escola" onclick="escola()">
 	

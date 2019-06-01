@@ -8,7 +8,8 @@ function tocar() {
 }
 function ligou() {
     window.document.body.style.backgroundColor =  'gold'
-    window.document.body.style.color = 'black'
+    window.document.getElementById("textao").style.color = 'black'
+    window.document.getElementById("cabeca").style.color = 'black'
     window.document.getElementById('tescola').style.color = 'white'
     alert('* Ops! \n  você acabou ligando o abajur!')
 }

@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+}
+header {  
+    color : white;
+
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+div {
+    text-align: center;
+    color : white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#sans {
+      margin-left:1000px;
+      width: 10%;
+}
+#abajur {
+    margin: auto;
+    visibility: hidden;
+    width: 6%;
+}
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+#escola {
+    visibility: hidden;
+    text-align: center;
+}
