@@ -19,7 +19,7 @@ var r = 255;
 var g = 255;
 var b = 255;
 function comecar() {
-	window.location.href('adivinha.html')
+	location.href ='adivinha.html'
 }
 function moveRight() {
 	x += 7.5;
