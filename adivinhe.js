@@ -18,5 +18,5 @@ function tescola() {
     alert('WOW! você achou a escola de bruxos!')
 }
 function escola() {
-    window.location.assign('escola.html')
+    location.href='escola.html'
 }
