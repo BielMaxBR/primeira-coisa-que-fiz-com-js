@@ -5,5 +5,6 @@ function harry() {
     var resp = window.prompt("??")
     if (resp = "leviossaa") {
         window.location.replace('http://notpron.org/notpron/levelone.htm')
+        console.log('ele foi embora pro notpron')
     }
 }
