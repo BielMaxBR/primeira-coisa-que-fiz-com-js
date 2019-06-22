@@ -1,6 +1,9 @@
 function level1() {
-    var senha = prompt("senha:")
-    if (senha == "level2") {
+    console.log('enviando')
+    const senha = require("senha.json")
+    console.log('recebido')
+    var resp = prompt("senha:")
+    if (resp == senha.level1) {
         location.href="level2.htm"
     }
     else {
