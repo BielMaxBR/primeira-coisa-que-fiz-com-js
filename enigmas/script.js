@@ -1,6 +1,6 @@
 function level1() {
     console.log('enviando')
-    const senha = require("senha.json")
+    const senha = require("../enigmas/senha.json")
     console.log('recebido')
     var resp = prompt("senha:")
     if (resp == senha.level1) {
