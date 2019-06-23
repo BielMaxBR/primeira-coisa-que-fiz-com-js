@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /enigmas/
+Disallow: /libraries/
+Disallow: /index.php
+Disallow: /robots.txt
+Allow: /enigmas/levelone.htm
+Allow: /adivinha.html
