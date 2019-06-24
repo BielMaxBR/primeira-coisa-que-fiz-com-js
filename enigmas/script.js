@@ -1,6 +1,6 @@
 function level1() {
     console.log('enviando')
-    $.getJSON("senha.json", function(json) {
+    $.getJSON("../senha.json", function(json) {
         console.log('recebido')
         console.log(json)
         var resp = prompt("senha:")
