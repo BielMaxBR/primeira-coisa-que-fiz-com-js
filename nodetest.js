@@ -1,2 +1,3 @@
-const senha = require('senha.json')
-console.log(senha)
+nodetest.get("../senha.json", function(json) {
+    console.log(json)
+})
