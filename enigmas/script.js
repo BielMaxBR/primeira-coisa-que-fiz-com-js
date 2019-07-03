@@ -33,6 +33,12 @@ function level3() {
             if (resp == json.level3) {
                 location.href=""
             }
+            else if (resp == "zubat") {
+                alert("siga a dica do título")
+            }
+            else if (resp == "macaco") {
+                alert("macaco voa?")
+            }
             else {
                 alert("nope.")
             }
