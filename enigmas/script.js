@@ -31,7 +31,7 @@ function level3() {
         $.getJSON("../senha.json", function(json) {
             var resp = prompt("senha:")
             if (resp == json.level3) {
-                location.href=""
+                location.href="vinagrete.htm"
             }
             else if (resp == "zubat") {
                 alert("ta perto. siga a dica do título")
