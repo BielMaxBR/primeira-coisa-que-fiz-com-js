@@ -34,10 +34,10 @@ function level3() {
                 location.href=""
             }
             else if (resp == "zubat") {
-                alert("siga a dica do título")
+                alert("ta perto. siga a dica do título")
             }
             else if (resp == "macaco") {
-                alert("macaco voa?")
+                alert("não. não é macaco")
             }
             else {
                 alert("nope.")
