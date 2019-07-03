@@ -21,8 +21,21 @@ function level2() {
                 location.href="marrapais.htm"
             }
             else {
-                alert("nope")
+                alert("nope.")
             }
          })
+    })()
+}
+function level3() {
+    (function() {
+        $.getJSON("../senha.json", function(json) {
+            var resp = prompt("senha:")
+            if (resp == json.level3) {
+                location.href=""
+            }
+            else {
+                alert("nope.")
+            }
+        })
     })()
 }
