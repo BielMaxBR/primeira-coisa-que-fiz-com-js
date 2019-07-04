@@ -45,3 +45,23 @@ function level3() {
         })
     })()
 }
+function decifra_me() {
+    (function() {
+        $.getJSON("../senha.json", function(json) {
+            console.log(json.esfinge)
+            var resp = prompt("senha:")
+            if (resp == json.esfinge) {
+                location.href="pera_ae.htm"
+            }
+            else if (resp == "ketchup") {
+                location.href="acerto.htm"
+            }
+            else if (resp != json.esfinge) {
+                alert("nope.")
+            }
+        })
+    })()
+}
+function acerto() {
+    location.href="vinagrete.htm"
+}
