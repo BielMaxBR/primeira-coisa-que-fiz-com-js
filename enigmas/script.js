@@ -48,7 +48,7 @@ function level3() {
 function decifra_me() {
     (function() {
         $.getJSON("../senha.json", function(json) {
-            console.log(json.esfinge)
+            console.log(json)
             var resp = prompt("senha:")
             if (resp == json.esfinge) {
                 location.href="pera_ae.htm"
