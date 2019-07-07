@@ -50,7 +50,7 @@ function decifra_me() {
         $.getJSON("../senha.json", function(json) {
             var resp = prompt("senha:")
             if (resp == json.esfinge) {
-                location.href="pera_ae.htm"
+                location.href=" .htm"
             }
             else if (resp == "ketchup") {
                 location.href="acerto.htm"
