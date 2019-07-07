@@ -48,7 +48,6 @@ function level3() {
 function decifra_me() {
     (function() {
         $.getJSON("../senha.json", function(json) {
-            console.log(json)
             var resp = prompt("senha:")
             if (resp == json.esfinge) {
                 location.href="pera_ae.htm"
@@ -64,4 +63,15 @@ function decifra_me() {
 }
 function acerto() {
     location.href="vinagrete.htm"
+}
+function nada() {
+    $.getJSON("../senha.json", function(json) {
+        var resp = prompt("senha")
+        if (resp == json.nada) {
+            location.href="pera_ae.htm"
+        }
+        else {
+            alert("nope.")
+        }
+    })
 }
